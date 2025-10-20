@@ -1,16 +1,23 @@
 ---
-title: Collaborative Discussions
+title: Group Work - Digital Forensics Agent
 layout: default 
 nav_order: 1
 ---
 
-Collaborative Learning Discussions
-==========================================================
+# Digital Forensics Agent: Group Contributions
 
-This activity was a formative discussion focused on the **ethical, legal, and societal challenges of predictive policing**. The work demonstrates an ability to engage with a complex socio-technical issue, apply ethical frameworks, and synthesize arguments from peers into a coherent summary.
+## Problem Definition and Requirements
 
-The core of the discussion involved a critical analysis of how predictive policing systems, while intended to improve efficiency, can perpetuate and even amplify societal biases. The analysis correctly identified that these systems are trained on historical crime data which is often already skewed, leading to a significant risk of creating **feedback loops**.
+Our team identified the critical challenge in digital forensics: manual evidence collection processes are time-consuming, error-prone, and risk compromising chain of custody. We collectively established that automating this workflow whilst maintaining legal admissibility standards would address fundamental investigative needs.
 
-The summary shows an understanding of professional codes of conduct from bodies like the **ACM and BCS**, applying their principles of fairness and social responsibility to the problem. A key part of this work was the collaborative element, where insights from peers were integrated to enrich the analysis.
+## Architecture Design
 
-Overall, this piece serves as evidence of critical thinking about the social impact of AI, demonstrating the essential professional skill of moving beyond technical implementation to consider and evaluate the broader ethical consequences of technology.
+The team collaboratively designed the system architecture using the Belief-Desire-Intention model as our theoretical foundation. We defined how beliefs (file system knowledge), desires (evidence preservation), and intentions (concrete actions) would interact to create autonomous forensic capability. This architectural decision shaped all subsequent implementation work.
+
+We collectively identified four core modules required for comprehensive forensic workflow: File Scanner for discovery, Evidence Archiver for preservation, Audit Logger for chain of custody, and Secure Transmitter for evidence sharing. Each module's responsibilities and interfaces were defined through team discussion.
+
+## Standards and Testing Strategy
+
+Our group established adherence to ISO 27037 standards for digital evidence handling, ensuring legal validity. We defined testing requirements across three levels: unit testing for individual module verification, integration testing for workflow validation, and performance testing for scalability assessment. The team agreed on 85% test coverage as our quality benchmark.
+
+These collaborative decisions established the framework enabling individual implementation whilst ensuring system components would integrate coherently and meet forensic investigation requirements. The group work provided clear specifications allowing parallel development of different modules whilst maintaining architectural consistency.
